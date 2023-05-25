@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    include:
+      - domain
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  port: 80
